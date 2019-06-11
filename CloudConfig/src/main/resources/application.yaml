@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: CloudConfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/Aditya/Git-Repo/
+
+server:
+  port: 7000
+  
