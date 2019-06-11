@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: ZuulAPIGateway
+    
+server:
+  port: 3000
+  
+zuul:
+  ignored-services: "*"
+  host:
+    max-total-connections: 1000
+    max-per-route-connections: 1000
+    connect-timeout-millis: 5000
+    connection-request-timeout-millis: 5000
+  routes:
+    CustomerService:
+      path: /customer/*
+      service-id: CustomerService
+      strip-prefix: false
+      url: 
+    ItemService:
+      path: /item/*
+      service-id: ItemService
+      strip-prefix: false
+    SalesOrderService:
+      path: /order/*
+      service-id: SalesOrderService
+      strip-prefix: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:4000/eureka/
+    register-with-eureka: true
+    fetch-registry: true
