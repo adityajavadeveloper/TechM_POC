@@ -1,0 +1,18 @@
+[INFO ] 2019-06-10 14:12:56.476 [restartedMain] ItemServiceApplication - The following profiles are active: qa
+[INFO ] 2019-06-10 14:12:59.808 [restartedMain] ItemServiceApplication - Started ItemServiceApplication in 6.678 seconds (JVM running for 268.851)
+[INFO ] 2019-06-10 14:13:51.951 [restartedMain]
+			ItemServiceApplication - The following profiles are active: qa
+[INFO ] 2019-06-10 14:13:55.275 [restartedMain]
+			ItemServiceApplication - Started ItemServiceApplication in 6.693 seconds (JVM running for 324.317)
+[INFO ] 2019-06-10 14:15:02.452 [restartedMain] ItemServiceApplication - The following profiles are active: qa
+[INFO ] 2019-06-10 14:15:05.746 [restartedMain] ItemServiceApplication - Started ItemServiceApplication in 6.659 seconds (JVM running for 394.788)
+[INFO ] 2019-06-11 12:07:28.835 [restartedMain] ItemServiceApplication - The following profiles are active: qa
+[INFO ] 2019-06-11 12:07:45.391 [restartedMain] ItemServiceApplication - Started ItemServiceApplication in 24.006 seconds (JVM running for 25.068)
+[INFO ] 2019-06-11 12:08:40.206 [http-nio-8000-exec-1] LoggerSingleton - ItemController :: getAllItems::Inside getAllItems
+[INFO ] 2019-06-11 12:08:53.713 [http-nio-8000-exec-2] LoggerSingleton - ItemController :: addItem::Inside addItems item = Item(id=0, name=item1, description=item1, price=10)
+[INFO ] 2019-06-11 12:08:56.485 [http-nio-8000-exec-3] LoggerSingleton - ItemController :: getAllItems::Inside getAllItems
+[INFO ] 2019-06-11 12:09:41.357 [http-nio-8000-exec-5] LoggerSingleton - ItemController :: deleteItem::Inside deleteItem itemId = 1
+[INFO ] 2019-06-11 12:09:43.858 [http-nio-8000-exec-4] LoggerSingleton - ItemController :: getAllItems::Inside getAllItems
+[INFO ] 2019-06-11 12:09:45.843 [http-nio-8000-exec-6] LoggerSingleton - ItemController :: addItem::Inside addItems item = Item(id=0, name=item1, description=item1, price=10)
+[INFO ] 2019-06-11 12:09:48.386 [http-nio-8000-exec-8] LoggerSingleton - ItemController :: getAllItems::Inside getAllItems
+[INFO ] 2019-06-11 12:10:08.484 [http-nio-8000-exec-7] LoggerSingleton - ItemController :: deleteItem::Inside deleteItem itemId = 2

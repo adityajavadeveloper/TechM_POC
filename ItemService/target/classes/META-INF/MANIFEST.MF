@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ItemService
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Aditya
+Implementation-Vendor-Id: com.item
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/ItemService
+Created-By: Maven Integration for Eclipse
+
